@@ -19,14 +19,14 @@
         />
 
     <EditText
-        android:id="@+id/inputBox"
+        android:id="@+id/keyInputBox"
         android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/lblKey"
         android:background="@color/white"
-        android:hint="0"
+        android:text="0"
         android:textSize="50dp"
         android:textAlignment="center"
         />
@@ -35,13 +35,14 @@
         android:id="@+id/btnKey"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/inputBox"
+        android:layout_below="@id/keyInputBox"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:layout_marginLeft="20dp"
-        android:text="Key"
+        android:text="Update"
         android:textSize="20dp"
         android:backgroundTint="@color/royal_blue"
+        android:onClick="update"
         />
 
 
