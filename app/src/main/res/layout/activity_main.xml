@@ -16,15 +16,18 @@
     android:background="@color/white"
     android:hint=""
     android:textSize="15dp"
+    android:maxLength="200"
+    android:gravity="start|top"
     />
 
 <!--    characters left -->
     <TextView
+        android:id="@+id/lblCharLeft"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/inputBox"
         android:layout_alignStart="@id/inputBox"
-        android:hint="characers left"/>
+        android:text="characers left : 200/200"/>
 
 <!--    Encrypt button -->
     <Button
@@ -37,6 +40,7 @@
         android:backgroundTint="@color/royal_blue"
         android:text="Encrypt"
         android:textSize="20dp"
+        android:onClick="encrypt"
         />
 
 <!--    Decrypt button -->
@@ -51,6 +55,7 @@
         android:text="Decrypt"
         android:textSize="20dp"
         android:backgroundTint="@color/royal_blue"
+        android:onClick="decrypt"
         />
 
 <!--    Key button -->
@@ -65,6 +70,7 @@
         android:text="Key"
         android:textSize="20dp"
         android:backgroundTint="@color/royal_blue"
+        android:onClick="key"
         />
 
 
