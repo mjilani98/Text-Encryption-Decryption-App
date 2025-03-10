@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_silver"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/lblKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="Key"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/inputBox"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/lblKey"
+        android:background="@color/white"
+        android:hint="0"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/btnKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputBox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:text="Key"
+        android:textSize="20dp"
+        android:backgroundTint="@color/royal_blue"
+        />
+
+
+
+
+</RelativeLayout>
